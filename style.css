@@ -1,0 +1,43 @@
+h3{
+    color: peru;
+    background-color: blueviolet;
+}
+h3:hover{
+    background-color: beige;
+    color:yellowgreen;
+}
+input:focus{
+    color:aquamarine;
+    border: 3px solid palevioletred;
+    padding-left: 20px ;
+    outline: 0;
+}
+
+a:visited{
+    color:brown;
+}
+
+li:nth-child(2n+1){
+    color:blue;
+}
+li:nth-child(2n){
+    color:palevioletred;
+}
+
+.box{
+    border: 2px dotted plum;
+    width: 400px;
+}
+.ring{
+    position: fixed;
+    top: 20px;
+}
+
+.dummy{
+    border: 1px solid turquoise;
+    height:200px;
+    width: 200px;
+}
+.another{
+    border: 2px solid blue;
+}
